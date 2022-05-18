@@ -1,0 +1,49 @@
+:root{
+    --white--color:#fff;
+    --black--color:#140a00;
+    --blue--color:#045fd4;
+    --red--color:#ff0000;
+    --grey--dark--color:#909090;
+    --gray--light--color:#e0e0e0;
+
+    --pading:12px;
+    --avatar--size:12px;
+
+    --font--langr:18px;
+    --font--medium:14px;
+    --font--small:12px;
+    --font--micro:18px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--pading);
+    background-color:var(--black--color);
+    color: var(--white--color);
+}
+header .logo{
+    font-size: var(--font--langr);
+}
+
+header .logo i{
+    color: var(--red--color);
+}
+header .icons .fa-solid{
+    margin-right: var(--pading);
+}
+.Player{
+    position: sticky;
+    top:0;
+    text-align: center;
+    background-color: #140a00;
+}
+/*2527초*/

@@ -5,6 +5,7 @@
     <title>Youtube Mobile</title>
     <meta name="viewport" content="width=divice-width",inital-scale="1.0">
     <script src="https://kit.fontawesome.com/f696815b8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"href="Style.css">
 </head>
 <body>
 
@@ -18,7 +19,7 @@
 </header>
 <!---Header---->
 <section class="Player">
-    <iframe width="840" height="480" src="https://www.youtube.com/embed/8sz0pPSTgnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%"height="480" max-width="1000px" src="https://www.youtube.com/embed/8sz0pPSTgnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
 <section class="info">
@@ -45,11 +46,53 @@
         <li><button><i class="fa-solid fa-plus"></i><span>Save</span></button></li>
         <li><button><i class="fa-solid fa-flag"></i><span>Report</span></button></li>
     </div>
-    <div class="channel"></div>
+    <div class="channel">
+        <div class="matadata">
+            <img src="cute.jpg" alt="" width="200" height="200"/>
+            <div class="info">
+                <span class="name">나의 첫 코딩이야기</span>
+                <span class="subscribe">1M subscribe</span>
+            </div>
+        </div>
+        <button class="subscribe">subscribe</button>
+    </div>
 </section>
 
+<section class="upNextr">
+    <span class="title">UP next</span>
+    <ul>
+        <li class="item">
+            <img src="KakaoTalk_20220515_175723708.jpg" alt="" width="200" height="200">
+            <div class="info">
+                <span class="title">니의 첫 포트폴리오인 유튜브 클론 코딩 포기하지말구 끝까지 하자!</span>
+                <span class="name">주동호 </span>
+                <span class="views">82K view</span>
+            </div>
+            <button class="moreBtn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        </li>
+        <li class="item">
+        <li class="item">
+            <img src="KakaoTalk_20220515_175723708.jpg" alt="" width="200" height="200">
+            <div class="info">
+                <span class="title">니의 첫 포트폴리오인 유튜브 클론 코딩 포기하지말구 끝까지 하자!</span>
+                <span class="name">주동호 </span>
+                <span class="views">82K view</span>
+            </div>
+            <button class="moreBtn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        </li>
+        <li class="item">
+        <li class="item">
+            <img src="KakaoTalk_20220515_175723708.jpg" alt="" width="200" height="200">
+            <div class="info">
+                <span class="title">니의 첫 포트폴리오인 유튜브 클론 코딩 포기하지말구 끝까지 하자!</span>
+                <span class="name">주동호 </span>
+                <span class="views">82K view</span>
+            </div>
+            <button class="moreBtn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        </li>
+    </ul>
 
-<section class="upNextr"></section>
+</section>
 
 </body>
 </html>
